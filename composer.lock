@@ -2684,11 +2684,11 @@
         },
         {
             "name": "poojajadav/livewire-crud",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "packages/poojajadav/livewire-crud",
-                "reference": "dfe5348df8d969e4e837e14c8d578dbbf5d0564f"
+                "reference": "b877513ae743ea645bbcb19d5b66122dda93c862"
             },
             "require": {
                 "illuminate/support": "~5|~6|~7|~8|~9",
