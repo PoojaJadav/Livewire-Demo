@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3486bda869650473834b1f26040d08e8",
+    "content-hash": "6ce1b424f7578c04fefdbeeb184f7abc",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2684,11 +2684,17 @@
         },
         {
             "name": "poojajadav/livewire-crud",
-            "version": "dev-master",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PoojaJadav/livewire-crud.git",
+                "reference": "ad2966b63d57512c2c5c65e40e586986bfe1558f"
+            },
             "dist": {
-                "type": "path",
-                "url": "packages/poojajadav/livewire-crud",
-                "reference": "2c69fa7b606aa389b289b7e480efe91fe2385f06"
+                "type": "zip",
+                "url": "https://api.github.com/repos/PoojaJadav/livewire-crud/zipball/ad2966b63d57512c2c5c65e40e586986bfe1558f",
+                "reference": "ad2966b63d57512c2c5c65e40e586986bfe1558f",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "~5|~6|~7|~8|~9",
@@ -2703,6 +2709,7 @@
                 "phpunit/phpunit": "^9.0",
                 "sempro/phpunit-pretty-print": "^1.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2716,19 +2723,27 @@
                     "Poojajadav\\LivewireCrud\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Pooja Jadav",
-                    "email": "56014892+PoojaJadav@users.noreply.github.com"
+                    "email": "contact2pooja36@gmail.com"
                 }
             ],
             "description": "This will create full livewire CRUD.",
-            "transport-options": {
-                "relative": true
-            }
+            "homepage": "https://github.com/PoojaJadav",
+            "keywords": [
+                "crud",
+                "livewire"
+            ],
+            "support": {
+                "issues": "https://github.com/PoojaJadav/livewire-crud/issues",
+                "source": "https://github.com/PoojaJadav/livewire-crud/tree/main"
+            },
+            "time": "2022-04-10T06:48:14+00:00"
         },
         {
             "name": "pragmarx/google2fa",

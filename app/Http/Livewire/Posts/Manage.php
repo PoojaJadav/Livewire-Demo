@@ -10,7 +10,7 @@ class Manage extends Component
 {
     use ModelManager;
 
-    public Post $model;
+    public static $modelName = Post::class;
 
     public function mount(Post $model = null)
     {
